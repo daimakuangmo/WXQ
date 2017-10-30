@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'WXQ/*.h'
 
