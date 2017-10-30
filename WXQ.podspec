@@ -26,4 +26,6 @@ Pod::Spec.new do |s|
 
   s.vendored_libraries = 'WXQ/*.a'
 
+  s.requires_arc = true
+
 end
