@@ -12,11 +12,12 @@ Pod::Spec.new do |s|
   s.summary          = 'A WXQ pod test'
 
   s.homepage         = 'https://github.com/daimakuangmo/WXQ'
-  s.license      = 'MIT'
+
+  s.license          = 'MIT'
 
   s.author           = { 'codeingwang@163.com' => 'wangxiaoqiang@lxfintech.com' }
 
-  s.source           = { :git => 'hhttps://github.com/daimakuangmo/WXQ.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/daimakuangmo/WXQ.git', :tag => s.version :commit = '890226aaaacc4e013adbd8e9b17b2ef7a45e17f3'}
 
   s.ios.deployment_target = '8.0'
 
